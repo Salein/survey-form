@@ -1,0 +1,116 @@
+h1 {
+    color: white;
+    font-size: 2.5em;
+  }
+  #title {
+    text-align: center;
+    padding: 0;
+    margin: 60px auto 0 auto;
+  }
+  #description {
+    text-align: center;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    font-size: 18px;
+    font-style: italic;
+  }
+  form {
+    width: 700px;
+    border: 1px solid;
+    background: rgb(0, 0, 128, 0.4);
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  #name {
+    display: flex;
+    font-size: 20px;
+    width: 85%;
+    margin: auto;
+    line-height: 1.5;
+    border-radius: 5px;
+  }
+  #name-label {
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+    line-height: 2;
+  }
+  #email {
+    display: flex;
+    font-size: 20px;
+    width: 85%;
+    margin: auto;
+    line-height: 1.5;
+    border-radius: 5px;
+  }
+  #email-label {
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+    line-height: 2;
+  }
+  #number {
+     display: flex;
+    font-size: 20px;
+    width: 85%;
+    margin: auto;
+    line-height: 1.5;
+    border-radius: 5px;
+  }
+  #number-label {
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+    line-height: 2;
+  }
+  select {
+    display: flex;
+    font-size: 26px;
+    width: 90%;
+    line-height: 2;
+    border-radius: 5px;
+  }
+  option {
+    font-size: 16px;
+  }
+  p {
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+    line-height: 2;
+  }
+  #check {
+    color: white;
+    display: flex;
+    font-size: 20px;
+    margin-left: 50px;
+    line-height: 1.4;
+    
+  }
+  input {
+    zoom: 1.4;
+    margin: 3px;
+  }
+  textarea {
+    display: flex;
+    width: 90%;
+    height: 100px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  button {
+    width: 85%;
+    margin-left: 49px;
+    border: none;
+    border-radius: 4px;
+    height: 2em;
+    color: white;
+    background: green;
+  }
+  body {
+    background: url(https://storge.pic2.me/c/1360x800/897/585859d1d8e1c.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
