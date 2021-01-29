@@ -7,6 +7,94 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <main>
+    <h1 id="title">
+        freeCodeCamp Survey Form
+      </h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+      <form id="survey-form">
+        <label id="name-label">Name
+          <input id="name" type="name" placeholder="Enter Your Name" required>
+        </label>
+        <label id="email-label">Email
+          <input id="email" type="email" placeholder="Enter Your Email">
+        </label>
+        <label id="number-label">Age
+          (optional)
+          <input id="number" type="number" placeholder="Age" min="10" max="99">
+        </label>
+      <p>Which option best describes your current role?
+        <select>
+          <option type="" value disabled selected>Sellect current role</option>
+          <option>Student</option>
+          <option>Full Time Job</option>
+          <option>Full Time Learner</option>
+          <option>Prefer not no nay</option>
+          <option>Other</option>
+        </select>
+      </p> 
+      <p>Would you recommend freeCodeCamp to a friend?
+          <div>
+              <label id="check" for="definitely">
+                  <input name="recommend" type="radio" value="definitely">Definitely
+              </label>
+              <label id="check" for="maybe">
+                  <input name="recommend" type="radio" value="maybe">Maybe
+              </label>
+              <label id="check" for="not sure">
+                  <input name="recommend" type="radio" value="not sure">Not sure
+              </label>
+          </div>
+      </p>
+      <p>What is your favorite feature of FreeCodeCamp?
+        <select>
+          <option type="" value disabled selected>Select an option</option>
+          <option>Challenges</option>
+          <option>Projects</option>
+          <option>Community</option>
+          <option>Open Source</option>
+        </select>
+      </p>
+      <p>What is your favorite feature of freeCodeCamp?
+          <label id="check">
+              <input type="checkbox">Front-end Projects
+          </label>
+          <label id="check">   
+            <input type="checkbox">Back-end Projects
+          </label>
+          <label id="check">
+              <input type="checkbox">Data Visualization
+          </label>
+          <label id="check">
+              <input type="checkbox">Challenges
+          </label>
+          <label id="check">
+              <input type="checkbox">Open Source Community
+          </label>
+          <label id="check">
+              <input type="checkbox">Videos
+          </label>
+          <label id="check">
+              <input type="checkbox">City Meetups
+          </label>
+          <label id="check">
+              <input type="checkbox">Wiki
+          </label>
+          <label id="check">
+              <input type="checkbox">Forum
+          </label>
+          <label id="check">
+              <input type="checkbox">Additional Courses
+          </label>
+          </p>
+          <p id="item-area">
+          Any comments or suggestions?
+          <textarea placeholder="Enter your comment here..."></textarea>
+          </p>
+          <button id="submit">Submit</button>
+    </form>
+    </main>
 </body>
 </html>
