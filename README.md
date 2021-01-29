@@ -1,3 +1,3 @@
 # survey-form
 
-https://salein.github.io/
+https://salein.github.io/survey-form
